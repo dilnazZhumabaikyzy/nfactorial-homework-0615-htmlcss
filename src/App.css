@@ -4,7 +4,7 @@
   --main-font-family: DIN, Helvetica, Arial, sans-serif;
 }
 .white-content {
-  background-color: rgb(81, 33, 33);
+  background-color: rgb(37, 33, 81);
 }
 body{
   background-color: #151515
@@ -135,11 +135,17 @@ hr {
 
 .footer{
   height: 180px;
-  background-color:rgb(37, 33, 81);
+  
   display: flex;
   justify-content: center;
   align-items: center;
   color: rgb(255, 255, 255);
+}
+.light {
+  background-color:rgb(1, 1, 1);
+}
+.dark {
+  background-color:rgb(50, 43, 122);
 }
 .footer a{
   color: rgb(255, 255, 255);
